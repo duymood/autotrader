@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "autotrader",
+  "version": "${version}",
+  "name": "Auto Trader",
+  "description": "Tự động giao dịch Sắt -> Ngọc Lục Bảo ngay khi mở GUI dân làng. Nhấn phím X để bật/tắt.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autotrader.AutoTraderClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
